@@ -64,3 +64,16 @@
     background-color: green;
     grid-column: 3;
 }
+
+.blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100px 80vh;
+    grid-template-areas: "navbar navbar"
+                         "article sidebar";
+}
+
+nav {
+    background-color: #5f5f5f;
+    grid-area: navbar;
+}
