@@ -143,6 +143,10 @@ aside {
     background-color: lightpink;
 }
 
-.cols > div:nth-child(odd) {
+.cols > div:nth-child(even) {
     background-color: lightseagreen;
+}
+
+.cols > div:not(:first-child) {
+    margin-top: 50px;
 }
